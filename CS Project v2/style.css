@@ -7,8 +7,8 @@ body{
     background-color: gray;
     width: 100%;
     margin: 0;
-    background: #3ba7b8;
-    background: linear-gradient(90deg,rgba(59, 167, 184, 1) 0%, rgba(67, 126, 143, 1) 63%, rgba(26, 118, 163, 1) 88%);
+    background: #B77AFA;
+    background: linear-gradient(90deg,rgba(250, 206, 240, 98) 0%, rgba(183, 122, 250, 98) 63%, rgba(250, 206, 240, 98) 88%);
 }
 .navbar{
     display: flex;
@@ -55,4 +55,24 @@ img{
     width: 450px;
     height: 350px;
     border-radius: 17px;
+}
+
+section:not(.hero-section) {
+    padding: 80px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section:not(.hero-section):nth-of-type(odd) {
+    background: #B77AFA;
+	color: white;
+	background: linear-gradient(90deg,rgba(250, 206, 240, 98) 0%, rgba(183, 122, 250, 98) 63%, rgba(250, 206, 240, 98) 88%);
+}
+
+section:not(.hero-section):nth-of-type(even) {
+    background: #eee;
+    color: black;
 }
