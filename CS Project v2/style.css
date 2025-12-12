@@ -2,9 +2,9 @@ body{
     margin: 0;
 }
 .hero-section{
-    height: 700px;
+    height: 800px;
     width: 100%;
-    background-color: gray;
+
     width: 100%;
     margin: 0;
     background: #B77AFA;
@@ -49,12 +49,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
+}
+.title{
+    margin-right: 70px;
 }
 img{
     width: 450px;
     height: 350px;
     border-radius: 17px;
+
 }
 
 section:not(.hero-section) {
@@ -66,13 +70,25 @@ section:not(.hero-section) {
     flex-direction: column;
 }
 
-section:not(.hero-section):nth-of-type(odd) {
+.firstAI {
     background: #B77AFA;
-	color: white;
+	color: black;
 	background: linear-gradient(90deg,rgba(250, 206, 240, 98) 0%, rgba(183, 122, 250, 98) 63%, rgba(250, 206, 240, 98) 88%);
+
+}
+.firstAI p {
+    width: 600px;
+    height: 300px;
 }
 
-section:not(.hero-section):nth-of-type(even) {
-    background: #eee;
-    color: black;
+.earlyIdeas p{
+    width: 600px;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+}
+.modern p{
+    width: 600px;
+    height: 300px;
 }
