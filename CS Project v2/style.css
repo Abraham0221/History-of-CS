@@ -42,10 +42,10 @@ ul li{
 }
 h1{
     font-size: 60px;
-    color: white;
+    color: black;
 
 }
-.hero-content{
+#section1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,8 @@ h1{
 .title{
     margin-right: 70px;
 }
+
+
 img{
     width: 450px;
     height: 350px;
@@ -61,34 +63,121 @@ img{
 
 }
 
-section:not(.hero-section) {
-    padding: 80px 20px;
-    min-height: 100vh;
+#about{
+    height: 550px;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+
+}
+.aboutSec{
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.what{
+    font-size: 25px;
+}
+.text{
+    width: 60%;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+
+}
+.text p{
+    font-size: 20px;
 }
 
-.firstAI {
+#firstAI {
+    height: 400px;
+    width: 100%;
+
+}
+
+#firstAI p {
+    width: 600px;
+    height: 300px;
+}
+#earlyIdeas{
+    height: 700px;
     background: #B77AFA;
 	color: black;
 	background: linear-gradient(90deg,rgba(250, 206, 240, 98) 0%, rgba(183, 122, 250, 98) 63%, rgba(250, 206, 240, 98) 88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.firstAI p {
-    width: 600px;
-    height: 300px;
-}
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.earlyIdeas p{
-    width: 600px;
-    height: 300px;
+
+}
+.text2{
+    width: 60%;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+}
+.ideas{
+    font-size: 30px;
+}
+#earlyIdeas p{
+
+    font-size: 20px;
+
 }
 a{
     text-decoration: none;
 }
-.modern p{
+#firstAI{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.text3{
+    width: 120%;
+    background-color: #f7f7f7;
+    border-radius: 16px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+}
+.text3 p{
+    font-size: 20px;
+}
+
+#modern{
+    height: 550px;
+    width: 100%;
+    background: #B77AFA;
+	color: black;
+	background: linear-gradient(90deg,rgba(250, 206, 240, 98) 0%, rgba(183, 122, 250, 98) 63%, rgba(250, 206, 240, 98) 88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modern p{
     width: 600px;
     height: 300px;
 }
+.mod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
